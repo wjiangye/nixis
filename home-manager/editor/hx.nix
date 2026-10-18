@@ -10,7 +10,7 @@
     defaultEditor = true;
 
     settings = {
-      theme = "everforest_dark";
+      theme = "kanagawa";
 
       editor = {
         line-number = "relative";
@@ -20,16 +20,16 @@
 
         indent-guides.render = true;
 
-        cursor-shape= {
+        cursor-shape = {
           insert = "bar";
           normal = "block";
           select = "underline";
         };
         lsp.display-messages = true;
-        
+
       };
     };
-    
+
     extraPackages = with pkgs; [
       nixfmt
     ];

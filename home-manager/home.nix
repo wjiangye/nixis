@@ -48,6 +48,9 @@
       llm-cli = "llama-cli -hf";
       wh-cli = "whisper-cli -m";
 
+      # Nix develop
+      gplus = "g++ -std=c++23 -Wall -Wextra -Wpedantic";
+
     };
 
   };

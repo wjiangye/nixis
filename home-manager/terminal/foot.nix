@@ -12,6 +12,7 @@
     settings = {
       main = {
         font = "Hurmit Nerd Font:size=10";
+
       };
 
     };
