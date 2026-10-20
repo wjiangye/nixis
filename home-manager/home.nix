@@ -16,16 +16,13 @@
   home.homeDirectory = "/home/sy0";
 
   home.packages = with pkgs; [
+    fastfetch
     cmatrix
     quickshell
     siyuan
 
     nerd-fonts.hurmit
   ];
-
-  programs.helix = {
-    enable = true;
-  };
 
   programs.git = {
     enable = true;

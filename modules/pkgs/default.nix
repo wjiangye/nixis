@@ -27,7 +27,6 @@
     fzf
     jq
 
-    fastfetch
     wl-clipboard
     cliphist
     grim
@@ -38,6 +37,7 @@
     pkgs-stable.libreoffice
     pkgs-stable.kdePackages.okular
     vlc
+    bottles
 
     llama-cpp-vulkan
     ffmpeg

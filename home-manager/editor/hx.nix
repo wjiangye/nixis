@@ -20,6 +20,11 @@
 
         indent-guides.render = true;
 
+        search = {
+          smart-case = true;
+          wrap-around = true;
+        };
+
         cursor-shape = {
           insert = "bar";
           normal = "block";

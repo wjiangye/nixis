@@ -42,11 +42,11 @@
     wget
     unzip
     zip
-    
+
     pkgs-stable.dnsutils
     pkgs-stable.pciutils
     pkgs-stable.usbutils
-    
+
     psmisc
     file
   ];
