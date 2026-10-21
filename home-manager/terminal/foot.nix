@@ -17,35 +17,35 @@
       };
 
       colors-dark = {
-        alpah = 0.76;
+        alpha = 0.85;
 
         # Fondo cálido oscuro / Foreground suave
-        background = "303446"; # surface0
-        foreground = "c6d0f5"; # text
+        background = "1e1e2e"; # surface0
+        foreground = "cdd6f4"; # text
 
-        regular0 = "494d64"; # base - negro suave
-        regular1 = "ea999c"; # red - rosa coral
-        regular2 = "a6d189"; # green - verde menta
-        regular3 = "e5c890"; # yellow - amarillo pastel
-        regular4 = "8caaee"; # blue - azul lavanda
-        regular5 = "f4b8e4"; # magenta - rosa pastel
-        regular6 = "81c8be"; # cyan - turquesa suave
-        regular7 = "b5bfe2"; # subtext1 - gris azulado
+        regular0 = "45475a"; # base - negro suave
+        regular1 = "f38ba8"; # red - rosa coral
+        regular2 = "a6e3a1"; # green - verde menta
+        regular3 = "f9e2af"; # yellow - amarillo pastel
+        regular4 = "89b4fa"; # blue - azul lavanda
+        regular5 = "f5c2e7"; # magenta - rosa pastel
+        regular6 = "94e2d5"; # cyan - turquesa suave
+        regular7 = "bac2de"; # subtext1 - gris azulado
 
-        bright0 = "51576d"; # surface1
-        bright1 = "ea999c"; # red
-        bright2 = "a6d189"; # green
-        bright3 = "e5c890"; # yellow
-        bright4 = "8caaee"; # blue
-        bright5 = "f4b8e4"; # magenta
-        bright6 = "81c8be"; # cyan
-        bright7 = "a5adce"; # subtext0
+        bright0 = "585b70"; # surface1
+        bright1 = "f38ba8"; # red
+        bright2 = "a6e3a1"; # green
+        bright3 = "f9e2af"; # yellow
+        bright4 = "89b4fa"; # blue
+        bright5 = "f5c2e7"; # magenta
+        bright6 = "94e2d5"; # cyan
+        bright7 = "a6adc8"; # subtext0
 
-        selection-foreground = "303446";
-        selection-background = "e5c890";
+        selection-foreground = "cdd6f4";
+        selection-background = "585b70";
 
         cursor = "f5a97f c0caf5";
-        urls = "81c8be";
+        urls = "89b4fa";
       };
 
       mouse = {
