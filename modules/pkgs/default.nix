@@ -38,6 +38,7 @@
     pkgs-stable.kdePackages.okular
     vlc
     bottles
+    pkgs-stable.localsend
 
     llama-cpp-vulkan
     ffmpeg
