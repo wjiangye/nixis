@@ -1,14 +1,13 @@
 {
   config,
   pkgs,
-  pkgs-stable,
   ...
 }:
 
 {
   imports = [
     ./ly.nix
- #   ./niri.nix
+    #   ./niri.nix
   ];
 
   hardware.graphics = {

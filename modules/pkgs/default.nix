@@ -36,10 +36,9 @@
     librewolf
     pkgs-stable.libreoffice
     pkgs-stable.kdePackages.okular
-    vlc
-    localsend
     pkgs-stable.bottles
-    
+    localsend
+    vlc
 
     llama-cpp-vulkan
     whisper-cpp-vulkan
