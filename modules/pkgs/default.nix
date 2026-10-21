@@ -37,17 +37,19 @@
     pkgs-stable.libreoffice
     pkgs-stable.kdePackages.okular
     vlc
-    bottles
-    pkgs-stable.localsend
+    localsend
+    pkgs-stable.bottles
+    
 
     llama-cpp-vulkan
-    ffmpeg
     whisper-cpp-vulkan
+    ffmpeg
 
     nethack
     bastet
   ];
 
+  services.flatpak.enable = true;
   programs.steam = {
     enable = true;
     gamescopeSession.enable = true;
@@ -56,6 +58,5 @@
     enable = true;
     capSysNice = false;
   };
-  services.flatpak.enable = true;
 
 }
