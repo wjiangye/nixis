@@ -34,6 +34,7 @@
   security.polkit.enable = true;
   security.pam.services.swaylock = { };
 
+  programs.zsh.enable = true;
   environment.systemPackages = with pkgs; [
     vim
     git

@@ -12,11 +12,12 @@
     settings = {
       main = {
         font = "Hurmit Nerd Font:size=10";
+        shell = "/etc/profiles/per-user/sy0/bin/zsh";
         title = "foot";
       };
 
       colors-dark = {
-        alpha = 1.0;
+        alpah = 0.76;
 
         # Fondo cálido oscuro / Foreground suave
         background = "303446"; # surface0
@@ -44,12 +45,19 @@
         selection-background = "e5c890";
 
         cursor = "f5a97f c0caf5";
-
+        urls = "81c8be";
       };
 
       mouse = {
         hide-when-typing = "yes";
         alternate-scroll-mode = "yes";
+      };
+
+      url = {
+        style = "curly";
+        osc8-underline = "always";
+        launch = "xdg-open $${url}";
+
       };
 
     };
