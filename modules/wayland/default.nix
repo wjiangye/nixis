@@ -48,7 +48,7 @@
     xwayland
     xwayland-satellite
 
-    pkgs-stable.swaylock
+    swaylock
     fuzzel
     awww
   ];
